@@ -1,5 +1,5 @@
 # Mern-Memories-App  
-Steps to execute memories application.
+##Steps to execute memories application.
   -1.Download the code as zip file.
   -2.Install all nessecery packages.
   -3.Change the backend database url in the server.
