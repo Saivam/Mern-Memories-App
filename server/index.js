@@ -27,7 +27,7 @@ app.use('/', (req, res) => {
 const port = process.env.PORT || 5000;
 
 mongoose
-  .connect(`mongodb+srv://saivamsi:(password)@cluster0.unz7hrp.mongodb.net/?retryWrites=true&w=majority`, {
+  .connect(`mongodb+srv://saivamsi:saivamsi@cluster0.unz7hrp.mongodb.net/?retryWrites=true&w=majority`, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
