@@ -2,7 +2,7 @@ import axios from "axios";
 import { getAuth } from "firebase/auth";
 const API = axios.create({
   // baseURL: "https://gold-dead-squirrel.cyclic.app/",
-  baseURL: 'http://localhost:5000',
+  baseURL: 'https://mern-memories-app-nub1.onrender.com',
 });
 
 // for attaching headers
